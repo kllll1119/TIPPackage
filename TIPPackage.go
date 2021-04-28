@@ -6,6 +6,13 @@ import (
 	"strings"
 )
 
+// TAddress 地址结构体
+type TAddress struct {
+	Left  uint32
+	Right uint32
+	S     string
+}
+
 func StringIpToInt(ipstring string) int {
 	ipSegs := strings.Split(ipstring, ".")
 	var ipInt int = 0

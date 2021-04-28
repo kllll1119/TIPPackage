@@ -1,7 +1,8 @@
 go mod init TGetIp
 go build
 
-//offline:copy myippackage to GOROOT
+//offline:copy TIPPackage to GOROOT
+//TIPData.go(short) for shrot Info,you can repleace TIPData.go to use
 
 /*
 package main
